@@ -8,7 +8,6 @@ export default function ListaCarrito(){
     const Lista = useContext(ListadoContext)
     return(
         <div>
-
             <div className="lista">     
             {Lista.lista.map(p => (
                 <CardCarrito key={p.id} props={p}></CardCarrito>

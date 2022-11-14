@@ -25,10 +25,7 @@ export default function Navbar({props}) {
             <nav className="collapse navbar-collapse" id="navbarSupportedConten">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <button onClick={() => setIsOpen(true)}>
-                  Open Modal
-                </button>
-                {isOpen && <inicioSesion setIsOpen={setIsOpen} />}
+                <Link className="nav-link active" to="/inicioSesion" >Iniciar Sesion</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link active" to="/" >Inicio</Link>

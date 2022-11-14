@@ -13,9 +13,9 @@ const Usuarios = [
     },
     {
         "id":2,
-        "user": "q", 
-        "pass": "q",  
+        "user": "b", 
+        "pass": "b",  
         "rol": "user"
     }
 ]
-export default Productos
+export default Usuarios

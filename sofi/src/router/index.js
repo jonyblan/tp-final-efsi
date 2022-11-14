@@ -3,6 +3,7 @@ import Inicio from "../pages/inicio";
 import Contacto from "../pages/contacto";
 import ProductosPage from "../pages/productos";
 import QuienesSomos from "../pages/quienessomos";
+import Sesion from "../pages/inicioSesion";
 import { useState } from "react";
 import React from "react";
 
@@ -25,6 +26,7 @@ export default function Router() {
         <Routes>
           <Route index element={<Inicio listado={listado} />}></Route>
           <Route path="/contacto" element={<Contacto listado={listado} />} ></Route>
+          <Route path="/inicioSesion" element={<Sesion listado={listado} />} ></Route>
           <Route path="/productos" element={<ProductosPage listado={listado} />} ></Route>
           <Route path="/quienessomos" element={<QuienesSomos listado={listado} />} ></Route>
         </Routes>

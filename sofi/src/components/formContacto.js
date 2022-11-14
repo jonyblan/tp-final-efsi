@@ -1,4 +1,3 @@
-
 import React from "react";
 export default function FormContacto (){
     return(
@@ -8,7 +7,7 @@ export default function FormContacto (){
             <label>Apellido </label>
             <input type="text" name="Apellido" className="u-full-width" placeholder="Apellido"  ></input>
             <label>Email </label>
-            <input type="text" name="Email" className="u-full-width" placeholder="Email"  ></input>
+            <input type="email" name="Email" className="u-full-width" placeholder="Email"  ></input>
             <textarea name="textarea" placeholder="Descripcion..."></textarea>
         </form>
     )
